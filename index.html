@@ -86,7 +86,7 @@
       let modal = document.getElementById('charts');
 	  // let container = document.getElementById("container")
 
-	  // When the user clicks on the button, open the modal 
+	  // When the user clicks on the button, open the modal
 	  const openOnClick = () => {
 	  	  let modal = document.getElementById('charts');
 	  	  let paras = document.getElementById("paras")
@@ -113,39 +113,39 @@
 </head>
 <body>
 	<div class="navbar" onclick="openOnClick()">
-		<div id="home">CR</div>
+		<div id="home">CRITICAL REVIEW</div>
 		<div class="space"></div>
-		<div>About</div>
-		<div>Help</div>
-		<div>Write for CR</div>
-		<div>Funny Quotes</div>
+		<div class="navbar-link">About</div>
+		<div class="navbar-link">Help</div>
+		<div class="navbar-link">Write for CR</div>
+		<div class="navbar-link">Funny Quotes</div>
 	</div>
 	<div class="notnavbar">
 		<div id="sidebar">
 			<form>
 				<div class="in">
 					<div>Course Code</div>
-					<input type="text" name="hi" placeholder="cs1300; math1010">
+					<input type="text" class="text-input" id="course-code" name="course-code" placeholder="cs1300; math1010">
 				</div>
 				<div class="in">
 					<div>Instructor</div>
-					<input type="text" name="hi" placeholder="huang, jeff; hughes">
+					<input type="text" class="text-input" id="course-prof" name="course-prof" placeholder="huang, jeff; hughes">
 				</div>
 				<div class="in">
 					<div>Title</div>
-					<input type="text" name="hi" placeholder="analysis">
+					<input type="text" class="text-input" id="course-title" name="course-title" placeholder="analysis">
 				</div>
 				<div class="in" id="last">
 					<div>Department</div>
-					<input type="text" name="hi" placeholder="engn">
+					<input type="text" class="text-input" id="course-dept" name="course-dept" placeholder="engn">
 				</div>
-				<div>
-					<button>math  x</button>
-					<button>csci  x</button>
-					<button>apma  x</button>
+				<div id="quick-links">
+					<button class="quick-link">math  x</button>
+					<button class="quick-link">csci  x</button>
+					<button class="quick-link">apma  x</button>
 				</div>
-				<div>
-					<button id="search">search ></button>
+				<div id="submit-query">
+					<button id="search">search</button>
 				</div>
 			</form>
 		</div>
@@ -223,13 +223,13 @@
 						<div id="chart_div_conc"></div>
 					</div>
 					<div class="description">
-						Professor Jeff Huang received universal praise for his engaging and enthusiastic lecture style. Many students appreciated his clear and organized lectures, though some noted that the lecture material was not always relevant for the assignments. Reviewers applauded Professor Huang for his sense of humor and passion for the subject. 
+						Professor Jeff Huang received universal praise for his engaging and enthusiastic lecture style. Many students appreciated his clear and organized lectures, though some noted that the lecture material was not always relevant for the assignments. Reviewers applauded Professor Huang for his sense of humor and passion for the subject.
 					</div>
-					<div class="description">			
+					<div class="description">
 						Students were divided on the effectiveness of the frequent questions he posed to the students during lecture; some felt that this method was successful in encouraging more class participation, while others noted that it resulted in many awkward silences. Professor Huang was frequently available and approachable outside of class.
 					</div>
 					<div class="description">
-						Coursework for the class consisted of weekly readings, projects, and journal entries, as well as one final presentation and four labs over the course of the semester. Respondents found the assignments to be relatively easy but also unnecessarily tedious and time-consuming, with many describing the assignments as “busywork.” Some students also noted that grading was slow and inconsistent and that feedback was not always useful.	
+						Coursework for the class consisted of weekly readings, projects, and journal entries, as well as one final presentation and four labs over the course of the semester. Respondents found the assignments to be relatively easy but also unnecessarily tedious and time-consuming, with many describing the assignments as “busywork.” Some students also noted that grading was slow and inconsistent and that feedback was not always useful.
 					</div>
 					<div class="description">
 						Overall, students enjoyed the content of the course and found the lectures to be interesting and engaging. Many mentioned the guest lectures as a highlight of the course. Students appreciated that the work was similar to what is done in industry. Some suggested that the course could be improved by spacing out deadlines, or by reducing the number of assignments. Reviewers found the class to be unique at Brown and suggested that interested students could also shop graphic design classes in RISD if they are looking for a class with similar content.
