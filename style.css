@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: space-around;
 	position: fixed;
+	z-index: 2;
 }
 
 #overlay {
@@ -170,6 +171,10 @@ button {
 	border-bottom: 2px solid #ddd;
 	padding-bottom: 20px;
 	font-weight: 100;
+}
+
+#charts {
+	z-index: 1;
 }
 
 .notnavbar {
