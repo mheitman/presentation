@@ -204,7 +204,8 @@ button {
 .i {
 	font-size: 32px;
 	font-weight: 300;
-	color: #bd7cff;
+	/*color: #bd7cff;*/
+	color: #7cc3ff;
 	margin-top: -6px;
 }
 
@@ -234,7 +235,7 @@ button {
 }
 
 .rating {
-	display: none;
+	/*display: none;*/
 }
 
 html {
