@@ -190,6 +190,10 @@ button {
 	font-weight: 100;
 	font-size: 32px;
 	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: grey;
 }
 
 .outer {
@@ -222,7 +226,7 @@ button {
 #search:hover {
 	transition: all 1s;
 	cursor: pointer;
-	color: purple;
+	/*color: purple;*/
 }
 
 .description {
