@@ -27,7 +27,7 @@
 	display: flex;
 	justify-content: space-around;
 	position: fixed;
-	z-index: 2;
+	z-index: 1;
 }
 
 #overlay {
@@ -260,14 +260,15 @@ button {
 }
 
 .r {
-	margin-bottom: 6px;
+	margin-bottom: 10px;
 	font-weight: 400;
 }
 
 .i {
 	font-size: 32px;
 	font-weight: 300;
-	color: #bd7cff;
+	/*color: #bd7cff;*/
+	color: #7cc3ff;
 	margin-top: -6px;
 }
 
@@ -291,7 +292,7 @@ button {
 }
 
 .rating {
-	display: none;
+	/*display: none;*/
 }
 
 html {
